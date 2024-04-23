@@ -1,0 +1,49 @@
+.header {
+  background-color: #fff;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+  }
+
+  .headerRight {
+    display: flex;
+    align-items: center;
+  }
+  //  .headerLeft {
+  //   margin-right: 100px;
+  //  }
+  &__logo-texts {
+    margin-left: 10px;
+  }
+  &__title {
+    margin-bottom: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  &__descr {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #000;
+  }
+  &__logo {
+    width: 40px;
+    background-color: #fff;
+    color: #fff;
+  }
+  .menu {
+    display: flex;
+    &__link {
+      color: #000;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+  }
+  .menu__item + .menu__item {
+    margin-left: 30px;
+  }
+}

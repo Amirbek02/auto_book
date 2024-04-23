@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+p {
+  color: #3f3f3f;
+}
+
+body {
+  background-color: #f0f0ff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App {
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
