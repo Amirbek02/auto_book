@@ -6,8 +6,7 @@ import Header from './components/Header/Header';
 import Read from './components/Read/Read';
 import Test from './components/Test/Test';
 import Test1 from './components/Test/Test1';
-import Test2 from './components/Test/Test2';
-import Test3 from './components/Test/Test3';
+import { Work } from './components/Work/Work';
 import Avtor from './components/Avtor/Avtor';
 
 import './App.scss';
@@ -20,10 +19,9 @@ function App() {
         <Route path="/" element={<Content />} />
         <Route path="/read" element={<Read />} />
         <Route path="/about" element={<Avtor />} />
+        <Route path="/work" element={<Work />} />
         <Route path="/test" element={<Test />} />
         <Route path="/test1" element={<Test1 />} />
-        <Route path="/test2" element={<Test2 />} />
-        <Route path="/test3" element={<Test3 />} />
       </Routes>
       <Footer />
     </div>

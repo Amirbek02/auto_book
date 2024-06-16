@@ -1,5 +1,10 @@
 .about {
-  padding: 30px 0;
+  margin: 30px 0;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 30px;
+  width: 1350px;
+  align-items: center;
 
   &__titles {
     display: flex;
@@ -8,14 +13,12 @@
   &__title {
     background-color: #4a66ac;
     width: 100%;
-    margin-top: 7px;
     padding: 60px 0;
     text-align: center;
     color: #fff;
   }
   &__img {
     width: 250px;
-    margin-top: 7px;
   }
 
   &__inner {
