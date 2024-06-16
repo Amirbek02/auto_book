@@ -1,5 +1,6 @@
 .content {
   padding: 70px 0 50px;
+  color: #e6ebe1;
 
   &__container {
     display: flex;
@@ -22,12 +23,13 @@
     font-size: 20px;
     line-height: 23px;
     margin: 10px 0 30px;
+    color: #e6ebe1;
   }
 
   &__link {
     display: inline-block;
     background-color: #0a3a73;
-    color: #fff;
+    color: #e6ebe1;
     padding: 15px 42px;
   }
 
@@ -47,6 +49,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
+    color: #e6ebe1;
   }
 }
 
@@ -73,7 +76,7 @@
       margin-bottom: 20px;
       font-size: 20px;
       b {
-        color: #3f3f3f;
+        color: #e6ebe1;
       }
     }
     ol {
@@ -88,103 +91,7 @@
       font-weight: 400;
       font-size: 20px;
       line-height: 23px;
-    }
-    &__img {
-      margin-left: 20px;
-      width: 300px;
-    }
-  }
-}
-.content {
-  padding: 70px 0 50px;
-
-  &__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &__texts {
-    max-width: 550px;
-  }
-
-  &__title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-  }
-
-  &__descr {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    margin: 10px 0 30px;
-  }
-
-  &__link {
-    display: inline-block;
-    background-color: #0a3a73;
-    color: #fff;
-    padding: 15px 42px;
-  }
-
-  &__img {
-    width: 350px;
-  }
-}
-
-.annotation {
-  padding: 100px 0 0;
-  &__title {
-    font-size: 32px;
-  }
-
-  &__descr {
-    margin: 20px 0;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-  }
-}
-
-.avtor {
-  padding: 50px 0 0;
-  &__title {
-    font-size: 32px;
-  }
-
-  .lists {
-    li {
-      list-style: inherit;
-    }
-  }
-
-  .texts {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-
-    &__menu {
-    }
-    &__title {
-      margin-bottom: 20px;
-      font-size: 20px;
-      b {
-        color: #3f3f3f;
-      }
-    }
-    ol {
-      margin-bottom: 30px;
-      margin-left: 18px;
-      li {
-        font-size: 20px;
-      }
-    }
-    &__descr {
-      margin-bottom: 20px;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 23px;
+      color: #e6ebe1;
     }
     &__img {
       margin-left: 20px;

@@ -17,11 +17,16 @@ p {
 }
 
 body {
+  background-image: url(../public/background_auto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #f0f0ff;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .App {
+  background-color: rgba($color: #000000, $alpha: 0.5);
 }
 
 .container {

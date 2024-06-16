@@ -8,7 +8,7 @@ function Header() {
       <div className="container header__container">
         <Link to="/">
           <div className="headerRight">
-            <img src="img/images.png" alt="" className="header__logo" />
+            <img src="auto_icon.png" alt="" className="header__logo" />
             <div className="header__logo-texts">
               <h2 className="header__title">Машиналық</h2>
               <p className="header__descr">ОҚЫТУДЫҢ НЕГІЗДЕРІ</p>
@@ -25,6 +25,11 @@ function Header() {
             <li className="menu__item">
               <Link to="/read" className="menu__link">
                 Электронды оқулық
+              </Link>
+            </li>
+            <li className="menu__item">
+              <Link to="/work" className="menu__link">
+                Зертханалық жұмыс
               </Link>
             </li>
             <li className="menu__item">
